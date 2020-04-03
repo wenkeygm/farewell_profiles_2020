@@ -1,0 +1,95 @@
+.mb-10 {
+  color: black;
+  text-align: center;
+  padding-top: 5vh;
+  position: relative;
+}
+
+.style{
+  position: relative;
+  padding-left: 75vw;
+}
+
+.button{
+  background-color: red;
+  border:solid;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 85vw;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+  cursor: alias;
+
+}
+
+.myself-wrap {
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.myself-wrap .desc {
+  padding: 5vw;
+  margin-bottom: -5vh;
+  text-align: center;
+  margin-top: -5vh;
+}
+
+.myself-wrap .desc p {
+  margin-bottom: 5px;
+
+}
+
+.myself-wrap .desc .lnr {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.myself-wrap .desc .talk-btn {
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 12px 70px;
+  display: inline-block;
+  border-radius: 25px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.myself-wrap .desc .talk-btn:hover {
+  background: transparent;
+  border: 1px solid #000;
+  color: #000;
+  opacity: 0.7;
+}
+.name{
+  font-size: 4vh;
+  padding-left:37%;
+  padding-top:90px;
+}
+@media screen and (max-width:1250px) {
+  .name{
+    position: relative;
+    font-size: 2vh;
+    padding-left:25%;
+    padding-top:10px;
+  }
+.style{
+  padding-top: 2vh;
+  padding-left: 35%;
+
+}
+.button{
+  margin-left: 42vw;
+}
+.myself-wrap .desc {
+  padding: 5vw;
+  margin-bottom: 2vh;
+  text-align: center;
+  margin-top: 1vh;
+}
+}
