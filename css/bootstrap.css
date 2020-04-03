@@ -657,9 +657,24 @@ pre code {
 @media screen and (max-width:1250px) {
   .row{
     position: relative;
+    padding: 4vh 5vw 0px 0vw;
   }
   .questions{
     height: 350vh;
+  }
+}
+@media screen and (max-width:900px) {
+  .row{
+    position: relative;
+    padding: 4vh 5vw 0px 0vw;
+
+  }
+}
+
+@media screen and (max-width:500px) {
+  .row{
+    position: relative;
+    padding: 3vh 3vw 23px 7vw;
   }
 }
 
