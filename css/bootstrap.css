@@ -651,7 +651,7 @@ pre code {
   display: grid;
   margin-right: 20vw;
   margin-left: 10vw;
-  padding: 14vh 0px 0px 9vw;
+  padding: 14vh 8vw 0px 0vw;
   position: absolute;
 }
 @media screen and (max-width:1250px) {
