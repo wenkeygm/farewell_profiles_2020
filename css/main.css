@@ -90,6 +90,13 @@
   padding: 5vw;
   margin-bottom: 2vh;
   text-align: center;
-  margin-top: 1vh;
+  margin-top: 3vh;
 }
+}
+@media screen and (max-width:490px) {
+  .style{
+    padding-top: 2vh;
+    padding-left: 20%;
+
+  }
 }
